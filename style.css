@@ -11,20 +11,31 @@
   border: 1px solid black;
 }
 
-.header-background {
+.header-background, .footer1-background {
   background-color: #2c3e50;
 }
 
-.jumbotron-background {
+.jumbotron-background, .about-background {
   background-color: #1abc9c;
 }
 
-.danny-jumbo {
+.portfolio-background, .contact-me-background {
+  /* debug JUST WHITE*/
+  background-color: #FFFAF0;
+}
+
+.db-taller {
   /* debug */
   height: 700px;
 }
 
-.danny-portfolio {
+.db-average {
   /* debug */
-  background-color: green;
+  height: 400px;
+}
+
+.db-short {
+  background-color: #1a252f;
+  /* debug */
+  height: 100px;
 }
