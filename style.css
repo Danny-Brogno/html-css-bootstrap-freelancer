@@ -6,7 +6,7 @@
 
 [class*="col-"] {
   /* debug */
-  background-color: white;
+  background-color: #FFFFFF;
   height: 200px;
   border: 1px solid black;
 }
@@ -20,15 +20,11 @@
 }
 
 .danny-jumbo {
+  /* debug */
   height: 700px;
 }
 
 .danny-portfolio {
   /* debug */
   background-color: green;
-}
-
-.six-pics {
-  /* debug */
-  background-color: yellow;
 }
