@@ -24,5 +24,11 @@
 }
 
 .danny-portfolio {
-  background-color: #FFFFFF;
+  /* debug */
+  background-color: green;
+}
+
+.six-pics {
+  /* debug */
+  background-color: yellow;
 }
