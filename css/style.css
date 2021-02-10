@@ -5,8 +5,6 @@
 }
 
 [class*="col-"] {
-  /* debug */
-  /* background-color: #FFFFFF; */
   height: 200px;
   border: 1px solid black;
 }
@@ -62,7 +60,7 @@
 
 /* jumbotron */
 
-.pic1 {
+.db-centralize {
   text-align: center;
 }
 
@@ -72,9 +70,55 @@
   margin-top: 5%;
 }
 
+.jumbo-text, .jumbo-undertext {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 20px;
+}
+
 .star-image {
-  /* display: block; */
-  max-width: 10%;
-  max-height: 10%;
-  /* margin-top: 5%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+/* portfolio section */
+
+.db-contenitore1 {
+  padding-bottom: 20px;
+}
+
+.db-portfolio-text:first-child,
+.db-about-text:first-child {
+  padding-top: 20px;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.black-star {
+  padding-top: 20px;
+  color: #000000;
+}
+
+.portfolio-img {
+  padding: 1% 0% 1% 0%;
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.db-about-text:first-child {
+  color: #FFFFFF;
+}
+
+.star-edit .fa, .fas {
+  padding-top: 20px;
+
 }
