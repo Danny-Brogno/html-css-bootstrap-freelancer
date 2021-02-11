@@ -132,14 +132,16 @@
 }
 
 @media all and (max-width: 768px) {
+
   .db-paragraph {
     column-count: initial;
   }
 }
 
 .db-downloading {
+  font-size: 21px;
   margin: 0px 200px 0px 200px;
-  padding: 0px 10px 10px 10px;
+  padding: 1rem 1.75rem;
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   background-color: transparent;
@@ -151,7 +153,27 @@
 
   .db-downloading {
     margin: 10px 150px 10px 150px;
-    padding: 0px 10px 10px 10px;
+    padding: 1rem 1.75rem;
   }
+}
 
+.db-downloading a {
+  color: #FFFFFF;
+}
+
+.db-downloading a:link {
+  text-decoration: none;
+}
+
+.db-downloading a:visited {
+  text-decoration: none;
+}
+
+.db-downloading a:hover {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: #000000;
+}
+
+.db-downloading:hover {
+  background-color: #FFFFFF;
 }
