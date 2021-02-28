@@ -85,6 +85,22 @@
   font-size: 30px;
 }
 
+.db-white-line {
+  width: 100%;
+  max-width: 38rem;
+  height: 1rem;
+  margin: 50px auto;
+  position: relative;
+  border-bottom: 3px solid white;
+}
+
+.db-white-line .fas.fa-star {
+  background-color: #1abc9c;
+  color: white;
+  z-index: 50;
+  padding: 0px 10px;
+}
+
 /* portfolio section */
 
 .db-contenitore1 {
@@ -131,13 +147,6 @@
   column-gap: 15px;
 }
 
-@media all and (max-width: 768px) {
-
-  .db-paragraph {
-    column-count: initial;
-  }
-}
-
 .db-downloading {
   font-size: 21px;
   margin: 0px 200px 0px 200px;
@@ -147,14 +156,6 @@
   background-color: transparent;
   border: 1px solid white;
   border-radius: 10px;
-}
-
-@media all and (max-width: 768px) {
-
-  .db-downloading {
-    margin: 10px 150px 10px 150px;
-    padding: 1rem 1.75rem;
-  }
 }
 
 .db-downloading a {
@@ -176,4 +177,27 @@
 
 .db-downloading:hover {
   background-color: #FFFFFF;
+}
+
+/* ----------------------------FORM SECTION--------------------------------- */
+
+.db-form input {
+  display: block;
+}
+
+
+/* ----------------------------MEDIA QUERY----------------------------------- */
+
+/* ----------------------------EXTRA SMALL----------------------------------- */
+
+@media all and (max-width: 768px) {
+
+  .db-downloading {
+    margin: 10px 150px 10px 150px;
+    padding: 1rem 1.75rem;
+  }
+
+  .db-paragraph {
+    column-count: initial;
+  }
 }

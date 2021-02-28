@@ -58,8 +58,7 @@
                 <h1>START BOOTSTRAP</h1>
               </div>
 
-              <div class="star-image db-centralize">
-                <!-- qui ci andava <img> ma rimaneva nera e non conosco la regola per cambiarla a bianca (forse fill?) -->
+              <div class="star-image db-centralize db-white-line">
                 <i class="fas fa-star"></i>
               </div>
 
@@ -158,6 +157,31 @@
           <div class="row">
 
             <div class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 db-taller">
+
+              <form class="db-form" action="/action_page.php">
+
+                <label for="db-name">
+                  <input type="name" name="name" minlength="8" placeholder="Name" required>
+                </label>
+
+                <label for="db-email">
+                  <input type="email" name="email" placeholder="Email" required>
+                </label>
+
+                <label for="db-phone">
+                  <input type="tel" name="number" placeholder="Phone Number" required>
+                </label>
+
+                <textarea rows="4" cols="50" name="comment" form="usrform">Message</textarea>
+
+
+                <label for="db-submit">
+                  <input type="submit" value="Send">
+                </label>
+
+              </form>
+
+
             </div>
 
           </div>
